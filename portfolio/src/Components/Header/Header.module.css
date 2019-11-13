@@ -1,0 +1,26 @@
+
+.header {
+    height: 60px;
+    background-color: #CFE9FE;
+    padding: 0 15px;
+    margin: 0;
+    position: relative;
+}
+
+.header nav {
+    width: 400px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 300px;
+}
+
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    padding: 0;
+    justify-content: space-between;
+    margin: 0;
+}
