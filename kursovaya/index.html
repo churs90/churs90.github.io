@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Галерея</title>
+  <link href="less/style.less" rel="stylesheet/less" type="text/css">
+  <link rel="stylesheet/less" href="less/font-awesome.less">
+</head>
+<body>
+  <div class="page">
+    <div class="top"></div>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="img/main/logo.png" alt="логотип"></a>
+        <a href="#"><img src="img/main/logo.png" alt="логотип" class="fr"></a>
+        <a href="#"><span>Вулканы мира</span></a>
+      </div>
+    </header>
+    <section class="slide-container">
+      <figure class="slide fade">
+        <img src="img/main/slyd1.jpg" alt="">
+      </figure>
+      <figure class="slide fade">
+        <img src="img/main/slyd2.jpg" alt="">
+      </figure>
+      <figure class="slide fade">
+        <img src="img/main/slyd3.jpg" alt="">
+      </figure>
+      <a class="prev" onclick="one(-1)">&#10094</a>
+      <a class="next" onclick="one(1)">&#10095</a>
+    </section>
+    <h1>Самые популярные вулканы</h1>
+    <section class=galery>
+      <figure class="foto"><figcaption>Вулкан Таупо</figcaption><img src="img/galery/1.jpg" alt="фото" title="Вулкан Таупо" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Йеллоустоун </figcaption><img src="img/galery/2.jpg" alt="фото" title="Вулкан Йеллоустоун" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Мауна-Лоа</figcaption><img src="img/galery/3.jpg" alt="фото" title="Вулкан Мауна-Лоа" class="img01"></figure>
+      <figure class="foto"><figcaption>Невадо-дель-Руис</figcaption><img src="img/galery/4.jpg" alt="фото" title="Невадо-дель-Руис" class="img01"></figure>
+      <figure class="foto"><figcaption>Авачинский вулкан</figcaption><img src="img/galery/5.jpg" alt="фото" title="Авачинский вулкан" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Пэктусан</figcaption><img src="img/galery/6.jpg" alt="фото" title="Вулкан Пэктусан" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Карисимби</figcaption><img src="img/galery/7.jpg" alt="фото" title="Вулкан Карисимби" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Килиманджаро</figcaption><img src="img/galery/8.jpg" alt="фото" title="Вулкан Килиманджаро" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Эльбрус</figcaption><img src="img/galery/9.jpg" alt="фото" title="Вулкан Эльбрус" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Котопахи</figcaption><img src="img/galery/10.jpg" alt="фото" title="Вулкан Котопахи" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Халеакала</figcaption><img src="img/galery/11.jpg" alt="фото" title="Вулкан Халеакала" class="img01"></figure>
+      <figure class="foto"><figcaption>Вулкан Везувий</figcaption><img src="img/galery/12.jpg" alt="фото" title="Вулкан Везувий" class="img01"></figure>
+    </section>
+    <section class="modal" id="modal">
+      <span id="closer" class="close">&times;</span>
+      <figure class="modalImage">
+        <div class="fon"><p>Смотреть видео</p></div>
+        <img id="modalImage">
+        <div class="video"><video controls muted autoplay></video></div>
+      </figure>
+    </section>
+    <footer>
+      <nav>
+        <ul>
+          <li><a target="_blank" title="https://vk.com/id73027887" href="https://vk.com/id73027887"><i class="fa fa-vk"></i></a></li>
+          <li><a target="_blank" title="https://mail.ru" href="https://mail.ru"><i class="fa fa-envelope-open"></i></a></li>
+          <li><a target="_blank" title="https://www.facebook.com" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+          <li> <a target="_blank" title="https://ok.ru" href="https://ok.ru"><i class="fa fa-odnoklassniki"></i></a></li>
+        </ul>
+      </nav>
+      <p>Сайт разработал - Вадим Чурсин</p>
+    </footer>
+  </div>
+  <script src="js/script.js" ></script>
+  <script src="js/modal.js" ></script>
+  <script src="js/less.js" ></script>
+</body>
+</html>
