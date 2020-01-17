@@ -147,13 +147,16 @@
     height: 80px;
     margin-top: 15px;
     font-size: 18px;
+
     li {
       display: inline;
     }
+
     a {
       display: inline-block;
       text-decoration: none;
     }
+
     .fa {
       margin: 10px 10px 0 10px;
       font-size: 24px;
@@ -161,11 +164,19 @@
       height: 40px;
     }
   }
+
   .modalImage {
-    transform: scaleY(0.8) translateY(-100px);
+    @keyframes zoom {
+      from {
+        transform: scaleY(0) translateY(-160px);
+      }
+      to {
+        transform: scaleY(0.8) translateY(-160px);
+      }
+    }
+    transform: scaleY(0.8) translateY(-160px);
   }
 }
-
 
 
 
